@@ -63,7 +63,7 @@
                   },
                   {
                       "path":  "README.md",
-                      "sha256":  "1497D706774CCD60AB38408DB7F3259B83E98B9E0044DBB470C6E39B26CFBB64"
+                      "sha256":  "C328DE89ACB7DE48C361A26E41B711DED527166575BFE6E45AC5777A9CBD5A42"
                   },
                   {
                       "path":  "src/IngameScript/Binding.cs",

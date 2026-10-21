@@ -3,7 +3,9 @@
 Space Engineers 1のProgrammable Blockで、LCDへ図形・文字・時間アニメーション・ブロック値に連動した表示を描くスクリプトです。
 **2.0.1 / Pre-release**。MIT Licenseで公開しています。
 
-[公式配布先](https://github.com/SunokoHub/SpaceEngineers-InGameScript-Product-LCDSpriteDrawer-Release) の `dist/LCDSpriteDrawer-2.0.1.cs` がゲーム投入用本文です。
+[ゲーム投入用PB本文をダウンロード（2.0.1）](https://github.com/SunokoHub/SpaceEngineers-InGameScript-Product-LCDSpriteDrawer-Release/raw/refs/heads/main/dist/LCDSpriteDrawer-2.0.1.cs)
+
+ブラウザーで本文が表示された場合は、ファイルとして保存してください。
 Releasesに配布されている場合も同名ファイルを使用できます。`src` は編集用ソースで、そのままPBへ貼るものではありません。
 短縮生成しているため、コードを読む場合は [ソース解説](docs/SOURCE.md) と [ビルド手順](docs/BUILD.md) を参照してください。
 
