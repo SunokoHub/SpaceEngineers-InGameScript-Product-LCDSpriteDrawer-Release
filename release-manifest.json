@@ -1,0 +1,145 @@
+{
+    "product":  "LCD Sprite Drawer",
+    "version":  "2.0.1",
+    "status":  "Pre-release",
+    "license":  "MIT",
+    "build":  {
+                  "sdk":  "9.0.318",
+                  "language":  "C# 6",
+                  "framework":  "netframework48",
+                  "minify":  "lite",
+                  "minifyExtraOptions":  "nomembertrimming",
+                  "trimUnusedTypes":  false
+              },
+    "body":  {
+                 "path":  "dist/LCDSpriteDrawer-2.0.1.cs",
+                 "characters":  84759,
+                 "sha256":  "280A4C55C7429AD129D434D3F8446D6CC660BD2F2A06CD3B2135B5D9B859BB5A"
+             },
+    "files":  [
+                  {
+                      "path":  ".gitattributes",
+                      "sha256":  "D60F352D0DB1404C70AFB4BB8B2CA3FD1C610572AA40720E8A0B7BAA7885418C"
+                  },
+                  {
+                      "path":  ".gitignore",
+                      "sha256":  "2FB2B7971AEA692CA444335D9FA705EF395E092BCAB0098CCCE3A81B74E8465E"
+                  },
+                  {
+                      "path":  "CHANGELOG.md",
+                      "sha256":  "D743593A456AFEFC0C970C113BC01D807E0F31708C66BEB49F263DC52EBD0ACC"
+                  },
+                  {
+                      "path":  "dist/LCDSpriteDrawer-2.0.1.cs",
+                      "sha256":  "280A4C55C7429AD129D434D3F8446D6CC660BD2F2A06CD3B2135B5D9B859BB5A"
+                  },
+                  {
+                      "path":  "docs/BUILD.md",
+                      "sha256":  "E35B777CC590D75C6AC743EB379DDE598E017DE63B9A399BBDBA7AE900734D80"
+                  },
+                  {
+                      "path":  "docs/CONFIGURATION.md",
+                      "sha256":  "C865F557C94A96C5D2ABF3904A0BDA3058A2504956003EFCE28840D15AFB391B"
+                  },
+                  {
+                      "path":  "docs/DEPENDENCIES.md",
+                      "sha256":  "958B702AB944DE98B5C9CF955DDCE4016ECFDCCDBB3484AD4CA9D755C8E826EB"
+                  },
+                  {
+                      "path":  "docs/SOURCE.md",
+                      "sha256":  "A325A83482BE6CB0352710441E0593077C9F68274E0B20930E8A3CF0039F7C37"
+                  },
+                  {
+                      "path":  "global.json",
+                      "sha256":  "5FD3E214333FC566F55E25FCCBE48626B9B3218CDA9A8BBFCFD6CB7F1C48C437"
+                  },
+                  {
+                      "path":  "LICENSE",
+                      "sha256":  "EEA54CC679D328F1DF4BE834389349A5B63FA27FCF173F675D36B40F2AE127FF"
+                  },
+                  {
+                      "path":  "NuGet.Config",
+                      "sha256":  "AEC93B5637AB6D62470979A008990A4A336A287AB83A3F2541849AE735674055"
+                  },
+                  {
+                      "path":  "README.md",
+                      "sha256":  "1497D706774CCD60AB38408DB7F3259B83E98B9E0044DBB470C6E39B26CFBB64"
+                  },
+                  {
+                      "path":  "src/IngameScript/Binding.cs",
+                      "sha256":  "189D8EE006A127E363308DDDE68701868FB757422C10955924737B478C7F647A"
+                  },
+                  {
+                      "path":  "src/IngameScript/BlockValues.cs",
+                      "sha256":  "21EE5C094A69E5720F4E30C6A22D89735F34FD875E9758FEAF42DB3901D06189"
+                  },
+                  {
+                      "path":  "src/IngameScript/DrawingRuntime.cs",
+                      "sha256":  "9154812A894C488392D0B9A5A6C2721F5E2958C719F8B6013A7752D276F27558"
+                  },
+                  {
+                      "path":  "src/IngameScript/IngameScript.csproj",
+                      "sha256":  "3ACB856B8BB66D5F4912AAD7207E944B785F2A624F2CB87ED9598C23D1ED60C7"
+                  },
+                  {
+                      "path":  "src/IngameScript/mdk.ini",
+                      "sha256":  "128A8D9C0A3CD0AB990031E24594C0B310B24B63BA2AA47E44FAC78829688C06"
+                  },
+                  {
+                      "path":  "src/IngameScript/Motion.cs",
+                      "sha256":  "9154197BCA434D8789779D2311EC88C770560A907C75423782A8C48F749B158D"
+                  },
+                  {
+                      "path":  "src/IngameScript/Program.cs",
+                      "sha256":  "327C7D8872C1A1D764AE18693251668D4A9B4FCD85A9D52DA637C3A169F907E7"
+                  },
+                  {
+                      "path":  "src/IngameScript/RunState.cs",
+                      "sha256":  "1F9B250C59FBD695589F4C3B7A9F14912EFC5C2DB7B0A2ACA9E94EA36B9F36A5"
+                  },
+                  {
+                      "path":  "src/IngameScript/SetupConfig.cs",
+                      "sha256":  "A08E4B939900CE2C2AA1804608CE6BCF0E435BE5BBAE1E3A249C7D9DEFF54284"
+                  },
+                  {
+                      "path":  "src/IngameScript/StaticLayout.cs",
+                      "sha256":  "88CC4552A7B33ADB666F77850E7C6484DF652279F67A8C6442A04FB8D6F1110C"
+                  },
+                  {
+                      "path":  "src/IngameScript/SurfaceInfo.cs",
+                      "sha256":  "ADA47F59C21EF93D7378B4C616C0D551F5BAEEC54489592C17A67D1826DABC13"
+                  },
+                  {
+                      "path":  "src/IngameScript/SurfacePass.cs",
+                      "sha256":  "746E0458C890DCFF3739272F0C19C1AEBCB75DB0E24A5C1ABDD8501E33C176F9"
+                  },
+                  {
+                      "path":  "tools/test-generated-script.ps1",
+                      "sha256":  "1B8E43D52181F868C7FE3E067D8390BE9D2B44B7668B6CCB8803C4A447BD8C0E"
+                  },
+                  {
+                      "path":  "vendor/modules/blockSelection/BlockSelection.cs",
+                      "sha256":  "91F69A144A1BD8BC947C1C38EFBB0EAB6F19E7FB3728B3BB5BC4774C814ADF73"
+                  },
+                  {
+                      "path":  "vendor/modules/blockSelection/BlockSelection.projitems",
+                      "sha256":  "7579BB082A04BDF7A4FC9FA91D2625EC6CF751136E08BC8ECAA43D673EBF9EF8"
+                  },
+                  {
+                      "path":  "vendor/modules/customData/CustomData.cs",
+                      "sha256":  "0A4EDD65EA10666C9C44F993ADE863A6F19FDE1F39F82838154295A94E520B5A"
+                  },
+                  {
+                      "path":  "vendor/modules/customData/CustomData.projitems",
+                      "sha256":  "08D7798109602E7B3561631286AB9CB80C8D9205E7E8AE61D67F0B0335F4DBD8"
+                  },
+                  {
+                      "path":  "vendor/modules/spriteDrawing/SpriteDrawingCore.cs",
+                      "sha256":  "72B8BD9506193F239952BE3C0E570CDE5EE1B90B44E4FCE09FC38B89ED8A177D"
+                  },
+                  {
+                      "path":  "vendor/modules/spriteDrawing/SpriteDrawingCore.projitems",
+                      "sha256":  "536140F06EAF3030D71CCDF4B3623AA90A99F12E3CFBBDBE428ED26FE4C85CBC"
+                  }
+              ]
+}

@@ -1,0 +1,40 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>netframework48</TargetFramework>
+    <RootNamespace>IngameScript</RootNamespace>
+    <LangVersion>6</LangVersion>
+    <EnableDefaultCompileItems>false</EnableDefaultCompileItems>
+    <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
+    <Configurations>Release;Debug</Configurations>
+    <Platforms>x64</Platforms>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="Program.cs" />
+    <Compile Include="SurfaceInfo.cs" />
+    <Compile Include="SetupConfig.cs" />
+    <Compile Include="StaticLayout.cs" />
+    <Compile Include="DrawingRuntime.cs" />
+    <Compile Include="SurfacePass.cs" />
+    <Compile Include="RunState.cs" />
+    <Compile Include="Motion.cs" />
+    <Compile Include="Binding.cs" />
+    <Compile Include="BlockValues.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Mal.Mdk2.PbAnalyzers" Version="2.1.17">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Mal.Mdk2.PbPackager" Version="2.2.10">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Mal.Mdk2.References" Version="2.2.9">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+  </ItemGroup>
+  <Import Project="../../vendor/modules/customData/CustomData.projitems" Label="Shared" />
+  <Import Project="../../vendor/modules/blockSelection/BlockSelection.projitems" Label="Shared" />
+  <Import Project="../../vendor/modules/spriteDrawing/SpriteDrawingCore.projitems" Label="Shared" />
+</Project>
